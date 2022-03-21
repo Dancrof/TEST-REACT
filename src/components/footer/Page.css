@@ -1,0 +1,129 @@
+:root{
+    /*== footer==*/
+  --min-width-280px-title-footer: 280px;
+  --max-width-400px-title-footer: 400px;
+  --color-text1-footer: #c7c7c7;
+  --color-text2-footer: #fff;
+  
+}
+  
+footer 
+{
+  background: #202020;
+  color: var(--color-text2-footer);
+  width: 100%;
+}
+.footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+.Contacto {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.Colum1 {
+  max-width: var(--max-width-400px-title-footer);
+  
+}
+.Colum1 h1 {
+  font-size: 22px;
+}
+.Colum1 p {
+  font-size: 14px;
+  color: var(--color-text1-footer);
+  margin-top: 20px;
+}
+.Colum2 {
+    
+  max-width: var(--max-width-400px-title-footer);
+}
+.Colum2 h1 {
+    
+  font-size: 22px;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.row i {
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  background: var(--color-text2-footer);
+  text-align: center;
+  line-height: 2.2rem;
+  transition: all 0.3s ease;
+}
+.row .fa-envelope{
+    background: transparent;
+    font-size: 1.5rem;
+}
+.row i:hover {
+  border-radius: 50%;
+}
+.row a {
+  color: black;
+  text-decoration: none;
+}
+.row label {
+  font-size: 1.1rem;
+  margin-left: 20px;
+  color: var(--color-text1-footer);
+}
+.Colum3 h1 {
+  font-size: 22px;
+}
+.row2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.row2 i {
+  font-size: 1.4rem;
+}
+.row2 label {
+  font-size: 1.1rem;
+  margin-left: 20px;
+}
+.Autor {
+  width: 100%;
+  background: #101010;
+}
+.Autor-centrar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 3rem;
+  padding: 0;
+}
+.Autor-centrar .polityc{
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+}
+.Autor-centrar .polityc li a{
+    
+    margin: 0 1rem;
+    color: var(--color-text1-footer);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.Autor-centrar .polityc li a:hover{
+    
+   color: var(--color-text1-footer);
+   text-decoration: underline;
+}
+.copy {
+  color: var(--color-text1-footer);
+  padding: 1rem;
+}

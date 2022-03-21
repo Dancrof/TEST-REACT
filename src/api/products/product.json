@@ -1,0 +1,32 @@
+{
+    "netflix": [
+        {
+            "id": "1",
+            "img": "https://www.maxionline.ec/wp-content/uploads/2018/08/Revista-Maxi-esmeraldas-tesoro-verde-del-Ecuador-3.png",
+            "title": "Encocado de camarones",
+            "description": "Delicioso plato que te hara sentir el cielo tu boca",
+            "Price": "1.50"
+        },
+        {
+            "id": "2",
+            "img": "https://img.goraymi.com/2018/06/13/0eea1b7bcf6b60ae901f7b8cacff5316_lg.jpg",
+            "title": "Seviche de conagrejo",
+            "description": "Delicioso plato que te hara sentir el cielo tu boca",
+            "Price": "2.00"
+        },
+        {
+            "id": "3",
+            "img": "https://comidasecuatorianas.online/wp-content/uploads/2020/01/corvina-frita-entera.jpg",
+            "title": "Pescado frito",
+            "description": "Delicioso plato que te hara sentir el cielo tu boca",
+            "Price": "2.50"
+        },
+        {
+            "id": "4",
+            "img": "https://www.confiesoquecocino.com/wp-content/uploads/2015/06/seco-de-pollo-5.jpg",
+            "title": "Seco de pollo",
+            "description": "Delicioso plato que te hara sentir el cielo tu boca",
+            "Price": "3.00"
+        }
+     ]
+}
