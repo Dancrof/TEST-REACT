@@ -1,10 +1,12 @@
-import React from 'react'
+import { handleProduct } from '../../context/productContext';
 import Page from './Page';
 
-function ProductDetails({showDetails}) {
+
+function ProductDetails({handleProduct}) {
+
   return (
     <>
-        <Page description={showDetails}/>
+        <Page />
     </>
   )
 }

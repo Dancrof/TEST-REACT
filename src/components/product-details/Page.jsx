@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import ProductContext from '../../context/productContext';
+import './Page.css';
 
-function Page({description}) {
+function Page() {
+  
+  const { prod } = useContext(ProductContext);
+
   return (
-    <>
-     {console.log(description)}
-    </>
-  )
+    
+    <div className='information'>
+        <h1 className='title'>{prod.description}</h1>
+    </div>
+  );
 }
 
 export default Page;

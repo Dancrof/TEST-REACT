@@ -1,0 +1,10 @@
+.information{
+
+    width: 500px;
+    height: 80px;
+    background-color: antiquewhite;
+}
+.information .title{
+
+    color: brown;
+}
